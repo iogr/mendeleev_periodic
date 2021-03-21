@@ -20,7 +20,6 @@ elements.keys.each_with_index do |element, index|
 end
 
 118.times do |index|
-
   ab = elements[table_element[index]].dig('symbol')
   ax = elements[table_element[index]].dig('xpos').to_i
   ay = elements[table_element[index]].dig('ypos').to_i
